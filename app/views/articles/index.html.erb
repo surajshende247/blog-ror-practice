@@ -3,7 +3,7 @@
 <ul>
     <% @articles.each do |article| %>
         <li>
-             <%= link_to_article.title, article %>
+             <%= link_to article.title, article %>
         </li>
     <% end %>
 </ul>
